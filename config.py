@@ -2,8 +2,8 @@
 import os
 
 # 电量阈值
-THRESHOLD = 2000.0  # 低电量警告阈值
-EXCELLENT_THRESHOLD = 1000.0  # 充足电量阈值
+THRESHOLD = 10.0  # 低电量警告阈值
+EXCELLENT_THRESHOLD = 100.0  # 充足电量阈值
 
 # 文件路径
 DATA_DIR = "./page/data"
