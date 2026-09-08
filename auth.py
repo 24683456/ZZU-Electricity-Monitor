@@ -220,6 +220,8 @@ class CASAuthenticator:
         if cas_client is None:
             from zzupy.app import CASClient
 
+            if not self.settings.account or not self.settings.password:
+                raise CASLoginError("缺少统一认证账号或密码，无法初始化 CAS 客户端")
             cas_client = CASClient(self.settings.account, self.settings.password)
         self.cas_client = cas_client
         self.device_id = self.settings.zzu_device_id
@@ -473,6 +475,9 @@ def _prepare_cas() -> CASClient | None:
         logger.error("缺少必要的环境变量: %s", ", ".join(missing_vars))
         return None
     settings = get_settings()
+    if not settings.account or not settings.password:
+        logger.error("账号或密码为空")
+        return None
     from zzupy.app import CASClient
 
     return CASClient(settings.account, settings.password)
