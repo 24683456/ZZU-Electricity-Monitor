@@ -1,0 +1,72 @@
+[
+  {
+    "time": "10-01 01:18:01",
+    "light_Balance": 7.2,
+    "ac_Balance": 1.4
+  },
+  {
+    "time": "10-01 07:20:59",
+    "light_Balance": 6.2,
+    "ac_Balance": 0.0
+  },
+  {
+    "time": "10-01 11:16:06",
+    "light_Balance": 5.2,
+    "ac_Balance": 0.0
+  },
+  {
+    "time": "10-01 18:35:56",
+    "light_Balance": 20.2,
+    "ac_Balance": 0.0
+  },
+  {
+    "time": "10-02 01:45:59",
+    "light_Balance": 16.2,
+    "ac_Balance": 0.0
+  },
+  {
+    "time": "10-02 07:35:21",
+    "light_Balance": 16.2,
+    "ac_Balance": 0.0
+  },
+  {
+    "time": "10-02 11:16:48",
+    "light_Balance": 15.2,
+    "ac_Balance": 0.0
+  },
+  {
+    "time": "10-02 18:10:46",
+    "light_Balance": 14.2,
+    "ac_Balance": 0.0
+  },
+  {
+    "time": "10-03 01:06:17",
+    "light_Balance": 13.7,
+    "ac_Balance": 0.0
+  },
+  {
+    "time": "10-03 07:27:04",
+    "light_Balance": 13.2,
+    "ac_Balance": 0.0
+  },
+  {
+    "time": "10-03 11:02:52",
+    "light_Balance": 13.2,
+    "ac_Balance": 0.0
+  },
+  {
+    "time": "10-03 17:32:54",
+    "light_Balance": 13.2,
+    "ac_Balance": 0.0
+  },
+  {
+    "time": "10-03 23:29:33",
+    "light_Balance": 11.8,
+    "ac_Balance": 0.0
+  },
+  {
+    "time": "10-04 02:54:38",
+    "light_Balance": 11.8,
+    "ac_Balance": 0.0
+  }
+]
